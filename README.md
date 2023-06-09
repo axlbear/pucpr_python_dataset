@@ -4,6 +4,9 @@
 * Alex Marzani Motta
 * Gabriel Delphino Doring
 
+## Instrutor:
+* Maicris Fernandes
+
 ## Curso:
 * Pós-Graduação em Engenharia de Redes e Telecomunicações - Turma U - POLS 275528
 
@@ -26,3 +29,6 @@
 
 5. Criado o arquivo **main.py** para executar todas as funções dentro de **queriesSQL.py** e expor os resultados no terminal.
 
+6. Ao executar o arquivo **main.py**, todos os resultados serão exibidos no terminal, cumprindo todas as requisições do trabalho.
+
+## Agradecemos ao Professor Maicris pelo curso ministrado.
