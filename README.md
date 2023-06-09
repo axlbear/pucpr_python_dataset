@@ -20,4 +20,5 @@
 2. Criado o arquivo **csvManipulation.py** para manipular as informações diretamente do arquivo CSV para dentro do código.
 3. Criado o arquivo **databaseInitiator.py** para iniciar a base de dados **CarAccidentAUS.db** em SQLite3.
 4. Criado o arquivo **queriesSQL.py** para todas a funções e Queries necessárias para manipulação dos dados dentro da base de dados.
+5. Criado o arquivo **main.py** para executar todas as funções dentro de **queriesSQL.py** e expor os resultados no terminal.
 

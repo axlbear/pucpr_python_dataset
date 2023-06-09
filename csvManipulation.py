@@ -10,11 +10,11 @@ class Report:
 
 accidentReport = []
 
-with open('pucpr_python_dataset/car_accident_AUS.csv', 'r') as CSVfile:
+with open('car_accident_AUS.csv', 'r') as CSVfile:
     reader = csv.DictReader(CSVfile)
 
     for row in reader:
-        accident = Report(int(row['CrashID']), row['RegMonth'], int(row['RegYear']), row['RegDay'], row['RegWeekDay'])
+        accident = Report(int(row['CrashID']), int(row['RegMonth']), int(row['RegYear']), row['RegDay'], row['RegWeekDay'])
         accidentReport.append(accident)
 
 # Teste para as informações adicionadas a Lista accidentReport
